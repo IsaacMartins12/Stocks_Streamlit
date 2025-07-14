@@ -135,7 +135,7 @@ with st.sidebar:
     end_date = st.date_input("Data final", pd.to_datetime("2025-01-01"))
     show_ma = st.checkbox("Mostrar Médias Móveis", value=True)
     ma_window = st.slider("Período da Média Móvel (dias)", 5, 100, 20) if show_ma else 20
-    st.markdown("---_")
+    st.markdown("----")
 
 tickers = [t.strip().upper() for t in tickers_input.split(",") if t.strip()]
 

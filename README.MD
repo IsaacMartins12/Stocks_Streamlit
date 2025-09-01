@@ -1,6 +1,6 @@
 # Interactive Stock Visualization with Streamlit
 
-![Alt text](./image.png)
+![Alt text](./images/image_1.png)
 
 ## 📋 Description
 
